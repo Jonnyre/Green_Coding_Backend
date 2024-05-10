@@ -4,7 +4,7 @@ import os
 
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-os.environ["HF_TOKEN"] = "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"
+os.environ["HF_TOKEN"] = ""
 model_name = "meta-llama/Meta-Llama-3-8B"
 
 pipeline = transformers.pipeline(

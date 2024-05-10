@@ -5,7 +5,7 @@ import os
 
 
 model_name = "meta-llama/Meta-Llama-3-8B-Instruct"
-os.environ["HF_TOKEN"] = "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"
+os.environ["HF_TOKEN"] = ""
 
 pipeline = transformers.pipeline(
     "text-generation",

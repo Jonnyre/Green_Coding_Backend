@@ -3,7 +3,7 @@ import transformers
 import torch
 import os
 
-os.environ["HF_TOKEN"] = "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"
+os.environ["HF_TOKEN"] = ""
 model = "meta-llama/Meta-Llama-3-8B"
 tokenizer = AutoTokenizer.from_pretrained(model)
 
