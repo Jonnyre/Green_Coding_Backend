@@ -8,7 +8,7 @@ def ask_ollama(question):
         "model": "llama3",
         "prompt": question,
         "stream": False,
-        "system": "You are a Senior Developer for Green Coding. Give me only the better version of the given Code Input and no further Explaination. Apply the following rule Avoid function calls in loop headers"
+        "system": "You are a Senior Developer for Green Coding. Give only the explanation for the improvement in one sentence first and only the better version of the given Code Input second and dont give me anything else. Apply the following rule Avoid function calls in loop headers"
     }
 
     try:
@@ -101,7 +101,6 @@ bad_codes = [
 
 if __name__ == "__main__":
     question = random_code = random.choice(bad_codes)
-    print("Question: ", question)
     answer = ask_ollama(question)
     if answer:
         print("Answer:", answer['response'])
