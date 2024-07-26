@@ -14,8 +14,8 @@ This project provides a Flask-based web service that analyzes Java code for pote
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/yourusername/green-coding-optimization-service.git
-cd green-coding-optimization-service
+git clone https://github.com/Jonnyre/Green_Coding_Backend.git
+cd Green_Coding_Backend
 ```
 
 ### 2. Create and Activate a Virtual Environment (Optional, but Recommended)
